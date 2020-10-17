@@ -5,12 +5,13 @@
 
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: whitesmoke;
+    background-color: rgb(221, 206, 206);
   }
 
   header {
       padding: 20px 50px;
       background-color: lightpink;
+   
       
   }
   
@@ -24,9 +25,13 @@ body {
       background: #5252;
       
   }
-  header a {
-      font-weight: normal;
+   header a {
+      font-weight: bolder;
       text-decoration: none;
+  }
+  .container {
+      max-width: 1100px;
+      margin: auto;
   }
 
   #navbar {
@@ -35,6 +40,7 @@ body {
       padding: 20px 160px;
       text-decoration: none;
       font-size: 22px;
+      
       
   }
  #navbar ul {
@@ -71,12 +77,64 @@ body {
   .hero {
       padding: 100px;
       background-image: url("../hero.jpg");
-      background-size: auto;
-  }
+      height: 1.0vh;
+      
+          
+      }
   .hero h2 {
       float: right;
-      color: blue;
+      color: darkblue;
       font-family: Verdana, Geneva, Tahoma, sans-serif;
       font-size: 22px;
       padding: 60px;
+  }
+
+  /* Section About Me */
+  .container {
+      padding-bottom: 50px;
+      margin: 50px auto;
+      width: 80%;
+      border-bottom: 1px solid #39a6b2;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+  }
+  .container h2{
+      align-items: right;
+      font-size: 30px;
+      color: blue;
+      margin-bottom: 30px;
+      flex: 1 30%;
+  }
+  .about-text p {
+      margin-bottom: 20px;
+      font-size: 15px;
+      line-height: 1.5;
+      color: blue;
+
+  }
+  .about-content {
+      display: flex;
+      
+     
+  }
+  .about img {
+      flex: 1 12%;
+      margin-right: 20px;
+  }
+  .about-text {
+      display: flex;
+      align-items: right;
+     
+      
+  }
+  .about-photo img {
+      display: block;
+      margin-left: 50px;
+      width: 20%;
+      border-radius: 40%;
+      margin-top: 40px;
+      flex: 1 12%;
+      max-width: 100%;
   }
