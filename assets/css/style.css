@@ -21,21 +21,38 @@ body {
       margin: 0;
       display: inline;
       margin-right: 55px;
+      background: #5252;
+      
   }
   header a {
       font-weight: normal;
+      text-decoration: none;
   }
 
-  header nav{
+  #navbar {
       float: right;
-      margin: 10px 10;
+      justify-content: space-between;
+      padding: 20px 160px;
+      text-decoration: none;
       font-size: 22px;
-      margin: 0 30px;
+      
   }
-  header nav ul li {
-      display: inline;
+ #navbar ul {
+      display: flex;
+      align-items: center;
+      list-style: none;
   }
 
+  #navbar li a {
+      padding: 20px;
+      margin: 0 10px;
+      text-decoration: none;
+      border-radius: 5px;
+
+  }
+  #navbar li a:hover {
+      background-color: pink;
+  }
   footer{
       background: lightpink;
       width: 100%;
@@ -61,4 +78,5 @@ body {
       color: blue;
       font-family: Verdana, Geneva, Tahoma, sans-serif;
       font-size: 22px;
+      padding: 60px;
   }
