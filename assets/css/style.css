@@ -118,7 +118,9 @@ body {
       font-size: 15px;
       line-height: 1.5;
       color: blue;
-
+      margin: 5px;
+      padding: 5px 5px;
+      float: right;
   }
   .about-content {
       display: flex;
@@ -126,22 +128,13 @@ body {
       
      
   }
-  .about img {
-      flex: 1 12%;
-      margin-right: 20px;
-  }
+  
   .about-text {
       display: flex;
-      align-items: right;
+      
+      float: right;
+      text-align: justify;
+      
      
       
-  }
-  .about-photo img {
-      display: block;
-      margin-left: 50px;
-      width: 20%;
-      border-radius: 40%;
-      margin-top: 40px;
-      flex: 1 12%;
-      max-width: 100%;
-  }
+  
