@@ -147,7 +147,7 @@ body {
     grid-template-rows: auto auto auto auto auto;
   }
   .item {
-    color: blue;
+    color: darkgray;
     padding: 2em 0;
     font-size: 20px;
     
