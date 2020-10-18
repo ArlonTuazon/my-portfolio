@@ -68,7 +68,7 @@ body {
       background: lightpink;
       width: 100%;
       padding: 20px;
-      margin: 150px 0px;
+      margin-bottom: 0px;
       
   }
   footer h3 {
@@ -76,7 +76,7 @@ body {
       color: blue;
       float: right;
       line-height: 1;
-      text-align: center;
+      
       
       margin-right: 100px;
       font-size: small;
@@ -226,12 +226,12 @@ body {
      margin-right: 15px;
      
      
-     padding: 75px 75px 0;
+     padding: 75px 25px 0;
      
   }
   .contactme ul li {
       display: inline;
-      padding: 20px 50px 75px;
+      padding: 20px 20px 50px;
       color: blue;m
   }
   /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
@@ -242,7 +242,7 @@ body {
   /* MEDIA QUERY FOR TABLETS AND SMALLER */
   @media screen and (max-width: 768px) {
     header h1 {
-      /* this will be applied on any screen between 768px and 575px */
+      
       font-size: 80px;
     }
   }
@@ -250,7 +250,7 @@ body {
   /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
   @media screen and (max-width: 575px) {
     header h1 {
-      /* this will be applied on any screen smaller than 575px */
+      
       font-size: 100px;
     }
   }
