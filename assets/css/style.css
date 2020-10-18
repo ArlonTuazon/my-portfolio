@@ -1,6 +1,6 @@
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 5px;
+    padding: 5px;
  }
 
 body {
@@ -9,7 +9,7 @@ body {
   }
 
   header {
-      padding: 20px 50px;
+      padding: 20px 30px;
       background-color: lightpink;
    
       
@@ -21,7 +21,7 @@ body {
       color: darkblue;
       margin: 0;
       display: inline;
-      margin-right: 55px;
+      margin-left: 55px;
       background: #5252;
       
   }
@@ -29,28 +29,30 @@ body {
       font-weight: bolder;
       text-decoration: none;
   }
-  .container {
+ /* .container {
       max-width: 1100px;
       margin: auto;
-  }
+  }*/
 
   #navbar {
-      float: right;
+      display: inline;
       justify-content: space-between;
-      padding: 20px 160px;
+      padding: 20px 10px;
+      margin-left: 10px;
       text-decoration: none;
       font-size: 22px;
-      
-      
+      float: right;
+         
   }
  #navbar ul {
       display: flex;
       align-items: right;
       list-style: none;
+      padding: 0px 20px;
   }
 
   #navbar li a {
-      padding: 10px;
+      padding: 10px 10px;
       margin: 0 10px;
       text-decoration: none;
       border-radius: 5px;
@@ -72,9 +74,11 @@ body {
       float: right;
       line-height: 1;
       text-align: center;
+      
       margin-right: 100px;
       font-size: small;
       box-sizing: border-box;
+      padding: 10px 20px;
   }
   .hero {
       padding: 100px;
@@ -89,8 +93,9 @@ body {
       color: darkblue;
       font-family: Verdana, Geneva, Tahoma, sans-serif;
       font-size: 22px;
-      padding: 10px;
+      padding: 5px 50px;
       margin-top: 60px;
+      display: inline;
   }
 
   /* Section About Me */
@@ -113,7 +118,7 @@ body {
    .aboutme p {
       margin: 10px 80px;
       text-align: justify;
-      padding: 25px 50px 75px 50px;
+      padding: 25px 20px 25px 50px;
       display: flex;
       color: blue;
   }
@@ -131,10 +136,49 @@ body {
       color: blue;
       
   }
-  .mywork p {
-    
-  padding: 25px 50px 75px;
   
+  .container {
+    display: grid;
+    grid-template-columns: 300px 180px 180px;
+    grid-gap: 20px;
+    grid-template-rows: auto auto auto auto auto;
+  }
+  .item {
+    color: blue;
+    padding: 2em 0;
+    font-size: 20px;
+    
+  }
+  
+  .a {
+    background-image: url("../images/comingsoon.jpg");
+    align-items: end;
+  }
+  
+  .b {
+    background-image: url("../images/pink.jpg");
+  }
+  
+  .c {
+    background-image: url("../images/work.jpg");
+    grid-row: head-row-end / content-row-end;
+    height: 180px;
+    width: 500px;
+  }
+  
+  .d {
+    background-image: url("../images/runbuddy.jpg");
+  }
+  
+  .e {
+    background-image: url("../images/birds.jpg");
+  }
+  
+ 
+  
+  .c {
+    grid-row: 1 / span 2;
+    grid-column: 1 / span 2;
   }
   /*Contact Me*/
 
