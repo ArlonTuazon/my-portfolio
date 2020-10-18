@@ -126,8 +126,14 @@ body {
       padding: 10px 30px;
       border-right: 2px solid;
       border-color: darkred;
-      font-size: 30px
+      font-size: 30px;
+      color: blue;
       
+  }
+  .mywork p {
+    
+  padding: 25px 50px 75px;
+  
   }
   /*Contact Me*/
 
@@ -144,6 +150,6 @@ body {
      display: flex;
      justify-content: space-evenly;
      margin: 50px;
-     padding: 50px;
+     padding: 25px 50px 75px;
   }
  
