@@ -1,6 +1,7 @@
 *{
     margin: 5px;
     padding: 5px;
+    
  }
 
 body {
@@ -11,8 +12,6 @@ body {
   header {
       padding: 20px 30px;
       background-color: lightpink;
-   
-      
   }
   
   header h1{
@@ -29,31 +28,30 @@ body {
       font-weight: bolder;
       text-decoration: none;
   }
- /* .container {
-      max-width: 1100px;
-      margin: auto;
-  }*/
-
+ 
+/* Navbar styles*/
   #navbar {
       display: inline;
-      justify-content: space-between;
-      padding: 20px 10px;
-      margin-left: 10px;
+      padding: 5px 10px;
+      margin-left: 5px;
       text-decoration: none;
       font-size: 22px;
       float: right;
-      
-         
+      overflow: hidden;
+              
   }
  #navbar ul {
       display: flex;
       align-items: right;
       list-style: none;
-      padding: 0px 20px;
+      padding: 0px 10px;
+      float: none;
+      width: 100%;
   }
 
   #navbar li a {
-      padding: 10px 10px;
+      display: flex;
+      padding: 5px 10px;
       margin: 0 10px;
       text-decoration: none;
       border-radius: 5px;
@@ -61,6 +59,7 @@ body {
   }
   #navbar li a:hover {
       background-color: pink;
+      color: blue;
   }
 
   /*footer style*/
@@ -76,8 +75,6 @@ body {
       color: blue;
       float: right;
       line-height: 1;
-      
-      
       margin-right: 100px;
       font-size: small;
       box-sizing: border-box;
@@ -196,11 +193,7 @@ body {
     grid-column: 1 / span 2;
     z-index: 2;
     
-    /*grid-row: head-row-end / content-row-end;*/
-   
-    /*width: 500px;*/
   }
-  /*Contact Me*/
   .d {
     grid-row: 1/2;
     z-index: 2;
@@ -236,7 +229,14 @@ body {
   }
   /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
+  #navbar ul {
+    margin-top: 20px;
     
+  }
+
+  #navbar ul li a {
+    font-size: 20px;
+  }
   }
   
   /* MEDIA QUERY FOR TABLETS AND SMALLER */
@@ -250,7 +250,11 @@ body {
   /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
   @media screen and (max-width: 575px) {
     header h1 {
-      
-      font-size: 100px;
+      font-size: 80px;
+    }
+    #navbar ul a{
+      margin: 10px 0;
+      padding: 20px 5px;
+     
     }
   }
