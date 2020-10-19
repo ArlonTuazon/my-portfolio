@@ -53,7 +53,7 @@ body {
       display: flex;
       padding: 5px 10px;
       margin: 0 10px;
-      text-decoration: none;
+      text-decoration: underline;
       border-radius: 5px;
 
   }
@@ -155,7 +155,7 @@ body {
     padding: 2em 0;
     font-size: 20px;
     border-color: 2px pink;
-    display: flex;
+    
     align-items: left;
     text-align: end;
  }
@@ -248,7 +248,7 @@ body {
   /* MEDIA QUERY FOR TABLETS AND SMALLER */
   @media screen and (max-width: 768px) {
     header h1 {
-      
+      grid-column: span 1 !important;
       font-size: 80px;
     }
   }
