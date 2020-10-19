@@ -12,7 +12,7 @@
     My likes, my current job
 
 ### My Work
-   Not much here, as I only started coding again. I attach the My portfolio and Run buddy.
+   Not much here, as I only started coding again. I attached the My portfolio and Run buddy.
 
 ### Contact Me
    My Phone number, my recent picture, email add and github account.
